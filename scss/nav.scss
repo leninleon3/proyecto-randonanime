@@ -1,0 +1,24 @@
+/*nav*/
+#logo {
+    font-family: 'Bungee', cursive;
+    font-size: 10px;
+    background-color: $white;
+    color: $border-color;
+    width: 340px;
+    height: $px1;
+    border-color: $black;
+    border-style: solid;
+    overflow: hidden;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    a {
+    color: $border-color;
+
+}
+}
+

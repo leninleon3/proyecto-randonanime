@@ -1,0 +1,167 @@
+
+/*main*/
+
+.img-1 {
+    width: $img-deskop;
+}
+
+.img-2 {
+    width: $img-deskop;
+}
+
+.img-3 {
+    width: $img-deskop;
+
+}
+
+.video-mas-populares {
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado-mas-populares {
+    padding: $padding1;
+
+    display: flex;
+    justify-content: center;
+}
+
+.mas-populares {
+    padding: $padding1;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.lista-animes {
+    padding: $padding1;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.en-emision {
+
+    margin: $padding2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: $padding1;
+    grid-row-gap: $padding1;
+
+    a {
+        color: $black !important;
+        text-decoration: none !important;
+    }
+}
+
+.size {
+    width: $img-deskop;
+    height: 300px;
+    border-color: $border-color;
+    border-style: $border-form;
+    border-radius: 4px;
+}
+
+.animate__animated {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+        a {
+            text-decoration: none;
+            color: $border-color;
+        }
+}
+
+/*main mis-favoritos*/
+
+
+.favoritos {
+    margin: $padding2;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: $padding1;
+    grid-column-gap: $padding1;
+    text-decoration: none;
+
+}
+
+
+/*main ultima vista*/
+
+.subtitulos-uv {
+    border-style: $border-form;
+    border-color: $border-color;
+    border-radius: 20px;
+    margin: 10px;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+.ultima-vista-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+        h2 {
+        padding: 5px;
+        text-align: center;
+    
+    }
+}
+
+.media-uv {
+    display: none;
+}
+
+/*main filtros*/
+
+.categorias {
+    list-style: none;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+        text-decoration: none;
+        color: $black;
+}
+}
+
+/*main filtros*/
+
+.col {
+    border-color: $border-color; 
+    border-radius: 10px; 
+    border-style: solid;
+    height: fit-content;
+    margin: $padding1;
+}
+
+/*main terminos y condiciones y politica de privacidad*/
+
+.terminos-y-condiciones {
+    background-color:$border-color;
+    color: $white;
+    border-radius: 10px;
+    margin: 30px;
+    padding: $padding1;
+}
+
+.politica-seccion {
+    background-color: $border-color;
+    color: $white;
+    padding: 10px;
+    border-radius: 20px;}

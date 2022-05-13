@@ -1,0 +1,22 @@
+/*footer*/
+
+#container-fluid {
+
+    margin-top: $padding1;
+    color: $border-color;
+    padding: $padding2;
+    background-color:  $white;
+    border-color: $black;
+    border-radius: 6px;
+    border-style: $border-form;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    a {
+        color: $black !important;
+        text-decoration: none !important;
+    }
+    
+}
