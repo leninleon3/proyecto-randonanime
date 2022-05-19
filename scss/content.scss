@@ -1,4 +1,3 @@
-
 /*main*/
 
 .img-1 {
@@ -61,10 +60,9 @@
 }
 
 .size {
-    width: $img-deskop;
+
+    @include bordes($border-color, $border-form, $black) width: $img-deskop;
     height: 300px;
-    border-color: $border-color;
-    border-style: $border-form;
     border-radius: 4px;
 }
 
@@ -73,11 +71,11 @@
     flex-direction: column;
     align-items: center;
 
-    
-        a {
-            text-decoration: none;
-            color: $border-color;
-        }
+
+    a {
+        text-decoration: none;
+        color: $border-color;
+    }
 }
 
 /*main mis-favoritos*/
@@ -99,8 +97,7 @@
 /*main ultima vista*/
 
 .subtitulos-uv {
-    border-style: $border-form;
-    border-color: $border-color;
+    @include bordes($border-color, $border-form, $black)
     border-radius: 20px;
     margin: 10px;
     height: fit-content;
@@ -112,11 +109,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    
-        h2 {
+
+    h2 {
         padding: 5px;
         text-align: center;
-    
+
     }
 }
 
@@ -128,7 +125,7 @@
 
 .categorias {
     list-style: none;
-    
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -137,15 +134,14 @@
     a {
         text-decoration: none;
         color: $black;
-}
+    }
 }
 
 /*main filtros*/
 
 .col {
-    border-color: $border-color; 
-    border-radius: 10px; 
-    border-style: solid;
+    @include bordes($border-color, $border-form, $black) 
+    border-radius: 10px;
     height: fit-content;
     margin: $padding1;
 }
@@ -153,7 +149,7 @@
 /*main terminos y condiciones y politica de privacidad*/
 
 .terminos-y-condiciones {
-    background-color:$border-color;
+    background-color: $border-color;
     color: $white;
     border-radius: 10px;
     margin: 30px;
@@ -164,4 +160,5 @@
     background-color: $border-color;
     color: $white;
     padding: 10px;
-    border-radius: 20px;}
+    border-radius: 20px;
+}

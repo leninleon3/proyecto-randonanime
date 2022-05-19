@@ -18,5 +18,27 @@
         color: $black !important;
         text-decoration: none !important;
     }
+
+    ul {
+        list-style: none;
+    }
     
+}
+
+/*mapa*/
+
+$redes: (
+    intagram: darkred,
+    twitter: rgba(139, 0, 0, 0.375),
+    facebook: rgb(201, 0, 0),
+);
+
+@each $red, $color in $redes {
+    .red-#{$red} {
+        color: $color;
+    }
+    
+}
+.red-twitter {
+    margin: 3px;
 }

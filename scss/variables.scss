@@ -6,3 +6,12 @@ $img-deskop: 200px;
 $black: black;
 $white: white;
 $px1: 100px;
+
+@mixin bordes ($border-color, $border-form, $black)
+
+{
+    border-color: $border-color;
+    border-style: $border-form;
+    color: $black;
+    
+}

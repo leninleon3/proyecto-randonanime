@@ -7,10 +7,13 @@
   color: black;
   background-color: black;
   font-family: 'Rubik', sans-serif;
-  background-color: white;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23c53333' fill-opacity='0.1'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ff0000' fill-opacity='0.27'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
   .body .form {
     background-color: darkred; }
+
+.contenedor {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ff0000' fill-opacity='0.27'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
 
 /*nav*/
 #logo {
@@ -75,10 +78,11 @@
     text-decoration: none !important; }
 
 .size {
-  width: 200px;
-  height: 300px;
   border-color: darkred;
   border-style: solid;
+  color: black;
+  width: 200px;
+  height: 300px;
   border-radius: 4px; }
 
 .animate__animated {
@@ -102,8 +106,9 @@
 
 /*main ultima vista*/
 .subtitulos-uv {
-  border-style: solid;
   border-color: darkred;
+  border-style: solid;
+  color: black;
   border-radius: 20px;
   margin: 10px;
   height: fit-content;
@@ -134,8 +139,9 @@
 /*main filtros*/
 .col {
   border-color: darkred;
-  border-radius: 10px;
   border-style: solid;
+  color: black;
+  border-radius: 10px;
   height: fit-content;
   margin: 20px; }
 
@@ -168,6 +174,21 @@
   #container-fluid a {
     color: black !important;
     text-decoration: none !important; }
+  #container-fluid ul {
+    list-style: none; }
+
+/*mapa*/
+.red-intagram {
+  color: darkred; }
+
+.red-twitter {
+  color: rgba(139, 0, 0, 0.375); }
+
+.red-facebook {
+  color: #c90000; }
+
+.red-twitter {
+  margin: 3px; }
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 900px) {
