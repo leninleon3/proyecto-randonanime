@@ -13,6 +13,11 @@
 
 }
 
+.accordion-button  {
+    background-color: darkred;
+    color: black;
+}
+
 .video-mas-populares {
     display: flex;
     flex-direction: column;
@@ -106,9 +111,7 @@
 }
 
 .ultima-vista-main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    @extend .animate__animated;
 
     h2 {
         padding: 5px;

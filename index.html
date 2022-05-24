@@ -9,19 +9,19 @@
     <!--font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!--fuentea-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="fuente1" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="fuente2" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <!--animated-style-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--SEO-->
-    <meta name="description" content="plataforma de streaming de contenido anime para fans, con contenido variado y actualizado de las series en japon">
+    <meta name="description"
+        content="plataforma de streaming de contenido anime para fans, con contenido variado y actualizado de las series en japon">
     <meta name="keywords" content="ANIME, STREAMING, FANS, JAPON, SERIES, ANIMACION">
     <title>RANDOMANIME
     </title>
+    <link rel="icon" type="image/jpg" href="./imagenes/logo.ico" />
     <!--link bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -35,7 +35,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: darkred;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/index.html">
+                <a class="navbar-brand" href="index.html">
                     <div id="logo">
                         <h1>Randonanime</h1>
                     </div>
@@ -61,7 +61,8 @@
                     </ul>
                     <form class="d-flex" style="color: white;">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-dark" style="color: darkred; background-color: white;" type="submit">Buscar</button>
+                        <button class="btn btn-outline-dark" style="color: darkred; background-color: white;"
+                            type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -71,21 +72,39 @@
 
         <header class="usuario">
 
-            <form style="background-color: darkred; color: white;">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Correo</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Iniciar Sesion
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <form style="background-color: darkred; color: white;">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Correo</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Mantener sesion
+                                        abierta</label>
+                                </div>
+                                <button type="submit" style="background-color: white; color: darkred;"
+                                    class="btn btn-dark">Enter</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Mantener sesion abierta</label>
-                </div>
-                <button type="submit" style="background-color: white; color: darkred;" class="btn btn-dark">Enter</button>
-            </form>
 
         </header>
 
@@ -96,7 +115,8 @@
 
             <h2 class="encabezado-mas-populares">Mas Populares</h2>
 
-            <div class="container-fluid" style="display: flex; align-items: center; justify-content: center; height: min-content; width: min-content; padding: 20px;">
+            <div class="container-fluid"
+                style="display: flex; align-items: center; justify-content: center; height: min-content; width: min-content; padding: 20px;">
                 <iframe class="video-mas-populares" width="580" height="345"
                     src="https://www.youtube.com/embed/w0bBprtlKow" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -111,8 +131,8 @@
                         <h5 class="card-title">kimetsu no yaiba 2</h5>
                         <p class="card-text">Tanjiro y compañia se uniran a un poderoso pilar en una peligrosa mision
                         </p>
-                        <a href="https://www3.animeflv.net/anime/kimetsu-no-yaiba-yuukakuhen"
-                            class="btn btn-dark" style="background-color: white; color: darkred;">Ver</a>
+                        <a href="https://www3.animeflv.net/anime/kimetsu-no-yaiba-yuukakuhen" class="btn btn-dark"
+                            style="background-color: white; color: darkred;">Ver</a>
                     </div>
                 </div>
 
@@ -123,7 +143,7 @@
                         <h5 class="card-title">Shingeki final season</h5>
                         <p class="card-text">La guerra entre eldia y marley estalla ante los ojos de la isla</p>
                         <a href="https://www3.animeflv.net/anime/shingeki-no-kyojin-the-final-season-part-2"
-                            class="btn btn-dark"  style="background-color: white; color: darkred;">Ver</a>
+                            class="btn btn-dark" style="background-color: white; color: darkred;">Ver</a>
                     </div>
                 </div>
 
@@ -134,8 +154,8 @@
                         <h5 class="card-title">My dress up darling</h5>
                         <p class="card-text">Gojo es un artista de secundaria que tendra un repentino encuentro con una
                             chica especial</p>
-                        <a href="https://www3.animeflv.net/anime/sono-bisque-doll-wa-koi-wo-suru"
-                            class="btn btn-dark" style="background-color: white; color: darkred;">Ver</a>
+                        <a href="https://www3.animeflv.net/anime/sono-bisque-doll-wa-koi-wo-suru" class="btn btn-dark"
+                            style="background-color: white; color: darkred;">Ver</a>
                     </div>
                 </div>
 
@@ -145,8 +165,12 @@
 
             <section class="en-emision">
                 <div class="animate__animated animate__pulse">
-                    <img class="size" src="https://areajugones.sport.es/wp-content/uploads/2022/03/kawaii-dake-ja-nai-shikimori-san.jpg" alt="shikimori-san">
-                    <p><a href="https://www3.animeflv.net/anime/kawaii-dake-ja-nai-shikimorisan">kawaii-dake-ja-nai-shikimori-san</a></p>
+                    <img class="size"
+                        src="https://areajugones.sport.es/wp-content/uploads/2022/03/kawaii-dake-ja-nai-shikimori-san.jpg"
+                        alt="shikimori-san">
+                    <p><a
+                            href="https://www3.animeflv.net/anime/kawaii-dake-ja-nai-shikimorisan">kawaii-dake-ja-nai-shikimori-san</a>
+                    </p>
                 </div>
 
                 <div class="animate__animated animate__pulse">
@@ -156,21 +180,26 @@
 
                 <div class="animate__animated animate__pulse">
                     <img class="size" src="./imagenes/Komi-san-S2-poster.jpg" alt="komi-san">
-                    <p><a href="https://www3.animeflv.net/anime/komisan-wa-comyushou-desu-2nd-season">Komi-san no puede comunicarse</a></p>
+                    <p><a href="https://www3.animeflv.net/anime/komisan-wa-comyushou-desu-2nd-season">Komi-san no puede
+                            comunicarse</a></p>
                 </div>
 
                 <div class="animate__animated animate__pulse">
-                    <img class="size" src="./imagenes/kaguya-sama-poster.jpeg" alt="kaguyasama-wa-kokurasetai-ultra-romantic">
-                    <p><a href="https://www3.animeflv.net/anime/kaguyasama-wa-kokurasetai-ultra-romantic">Kaguya-sama wa Kokurasetai: Ultra Romantic</a></p>
+                    <img class="size" src="./imagenes/kaguya-sama-poster.jpeg"
+                        alt="kaguyasama-wa-kokurasetai-ultra-romantic">
+                    <p><a href="https://www3.animeflv.net/anime/kaguyasama-wa-kokurasetai-ultra-romantic">Kaguya-sama wa
+                            Kokurasetai: Ultra Romantic</a></p>
                 </div>
 
                 <div class="animate__animated animate__pulse">
-                    <img class="size" src="https://areajugones.sport.es/wp-content/uploads/2022/03/date-a-live.jpg" alt="date-a-live-iv">
+                    <img class="size" src="https://areajugones.sport.es/wp-content/uploads/2022/03/date-a-live.jpg"
+                        alt="date-a-live-iv">
                     <p><a href="https://www3.animeflv.net/anime/date-a-live-iv">Date A Live IV</a></p>
                 </div>
 
                 <div class="animate__animated animate__pulse">
-                    <img class="size" src="https://m.media-amazon.com/images/I/81saK-pr9FL._AC_SY606_.jpg" alt="asobi-asobase">
+                    <img class="size" src="https://m.media-amazon.com/images/I/81saK-pr9FL._AC_SY606_.jpg"
+                        alt="asobi-asobase">
                     <p><a href="https://www3.animeflv.net/anime/asobi-asobase">Asobi Asobase</a></p>
                 </div>
 
@@ -214,12 +243,15 @@
                 actualizaciones
             </h2>
             <ul class="redes-sociales">
-                <li class="red-intagram"><a href="https://www.instagram.com/leninacevedo/?hl=es"><button class="red-intagram">INSTAGRAM</button></a>
-                <i class="fa-brands fa-instagram-square"></i></li>
-                <li class="red-twitter"><a href="https://twitter.com/home?lang=es"><button class="red-twitter">TWITTER</button></a>
-                <i class="fa-brands fa-twitter-square"></i></li>
-                <li class="red-facebook"><a href="https://www.facebook.com/leninacevedoa"><button class="red-facebook">FACEBOOK</button></a>
-                <i class="fa-brands fa-facebook-square"></i></li>
+                <li class="red-intagram"><a href="https://www.instagram.com/leninacevedo/?hl=es"><button
+                            class="red-intagram">INSTAGRAM</button></a>
+                    <i class="fa-brands fa-instagram-square"></i></li>
+                <li class="red-twitter"><a href="https://twitter.com/home?lang=es"><button
+                            class="red-twitter">TWITTER</button></a>
+                    <i class="fa-brands fa-twitter-square"></i></li>
+                <li class="red-facebook"><a href="https://www.facebook.com/leninacevedoa"><button
+                            class="red-facebook">FACEBOOK</button></a>
+                    <i class="fa-brands fa-facebook-square"></i></li>
             </ul>
             <div class="legalidad">
                 <h2><a href="./enlaces/terminos-ycondiciones.html">Terminos y condiciones</a></h2>
