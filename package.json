@@ -296,7 +296,7 @@
     "y18n": "^5.0.8",
     "yallist": "^4.0.0"
   },
-  "description": "",
+  "description": "actualizaciones seo: agregados a todos los html keywords y descriptions independientes\r agregados maps, extend y mixins",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leninleon3/proyecto-randonanime.git"

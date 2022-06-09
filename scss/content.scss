@@ -13,6 +13,30 @@
 
 }
 
+.top {
+    margin: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bienvenido {
+    color: $border-color;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.descripcion {
+    background-color: $border-color;
+    border-radius: 5px;
+    color: $white;
+    padding: 4px;
+    font-size: 20px;
+    text-align: center;
+}
+
 .accordion-button  {
     background-color: darkred;
     color: black;
@@ -61,12 +85,14 @@
     a {
         color: $black !important;
         text-decoration: none !important;
+        font-weight: bolder !important;
+
     }
 }
 
 .size {
 
-    @include bordes($border-color, $border-form, $black) width: $img-deskop;
+    @include bordes($border-color, $border-form, $black); width: $img-deskop;
     height: 300px;
     border-radius: 4px;
 }
@@ -80,6 +106,7 @@
     a {
         text-decoration: none;
         color: $border-color;
+        font-weight: bold;
     }
 }
 
@@ -102,11 +129,12 @@
 /*main ultima vista*/
 
 .subtitulos-uv {
-    @include bordes($border-color, $border-form, $black)
+    @include bordes($border-color, $border-form, $black);
     border-radius: 20px;
     margin: 10px;
     height: fit-content;
     width: fit-content;
+    background-color: $white;
 
 }
 
@@ -124,6 +152,15 @@
     display: none;
 }
 
+.publicidad-favoritos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 5px;
+}
+
+
 /*main filtros*/
 
 .categorias {
@@ -133,6 +170,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background-color: $white;
 
     a {
         text-decoration: none;
@@ -140,10 +178,8 @@
     }
 }
 
-/*main filtros*/
-
 .col {
-    @include bordes($border-color, $border-form, $black) 
+    @include bordes($border-color, $border-form, $black);
     border-radius: 10px;
     height: fit-content;
     margin: $padding1;

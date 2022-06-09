@@ -43,6 +43,26 @@
 .img-3 {
   width: 200px; }
 
+.top {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.bienvenido {
+  color: darkred;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.descripcion {
+  background-color: darkred;
+  border-radius: 5px;
+  color: white;
+  padding: 4px;
+  font-size: 20px;
+  text-align: center; }
+
 .accordion-button {
   background-color: darkred;
   color: black; }
@@ -79,7 +99,8 @@
   grid-row-gap: 20px; }
   .en-emision a {
     color: black !important;
-    text-decoration: none !important; }
+    text-decoration: none !important;
+    font-weight: bolder !important; }
 
 .size {
   border-color: darkred;
@@ -95,7 +116,8 @@
   align-items: center; }
   .animate__animated a, .ultima-vista-main a {
     text-decoration: none;
-    color: darkred; }
+    color: darkred;
+    font-weight: bold; }
 
 /*main mis-favoritos*/
 .favoritos {
@@ -116,7 +138,8 @@
   border-radius: 20px;
   margin: 10px;
   height: fit-content;
-  width: fit-content; }
+  width: fit-content;
+  background-color: white; }
 
 .ultima-vista-main h2 {
   padding: 5px;
@@ -125,18 +148,24 @@
 .media-uv {
   display: none; }
 
+.publicidad-favoritos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px; }
+
 /*main filtros*/
 .categorias {
   list-style: none;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background-color: white; }
   .categorias a {
     text-decoration: none;
     color: black; }
 
-/*main filtros*/
 .col {
   border-color: darkred;
   border-style: solid;
@@ -199,7 +228,10 @@
     padding-right: 10px; }
   .en-emision {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; } }
+    grid-template-rows: 1fr 1fr; }
+  .top {
+    display: flex;
+    flex-direction: column; } }
 
 @media screen and (max-width: 680px) {
   .size2 {
