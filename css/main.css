@@ -273,7 +273,9 @@
   .container-fluid {
     display: flex;
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+  .carousel {
+    display: none; } }
 
 @media screen and (max-width: 500px) {
   .publicidad-favoritos {
