@@ -1,3 +1,2 @@
 # proyecto-randonanime
-actualizaciones seo: agregados a todos los html keywords y descriptions independientes
-agregados maps, extend y mixins
+entrega final proyecto coderhouse, abierta a recomendaciones y modificaciones. cumple los parametros solicitaods.
